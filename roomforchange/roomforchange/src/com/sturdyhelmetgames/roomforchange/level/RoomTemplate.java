@@ -74,7 +74,7 @@ public class RoomTemplate {
 		}
 
 		// randomize room difficulty level
-		int difficultyLevel = MathUtils.random(5);
+		int difficultyLevel = MathUtils.random(10) / 1.5;
 		if (difficultyLevel == 1) {
 			difficultyLevel = 1;
 		}
