@@ -80,12 +80,12 @@ public class RoomTemplate {
 		}
 		for (int i = 0; i < difficultyLevel; i++) {
 			final int enemyType = MathUtils.random(100);
-			if (enemyType < 30) {
-				entityTypes.add(Mummy.class);
-			} else if (enemyType < 60) {
-				entityTypes.add(Snake.class);
-			} else if (enemyType < 95) {
+			if (enemyType < 25) {
 				entityTypes.add(Spider.class);
+			} else if (enemyType < 45) {
+				entityTypes.add(Mummy.class);
+			} else if (enemyType < 80) {
+				entityTypes.add(Snake.class);
 			} else if (enemyType < 100) {
 				entityTypes.add(KingSpider.class);
 			}
